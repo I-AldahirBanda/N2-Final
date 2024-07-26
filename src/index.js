@@ -7,7 +7,7 @@ import swaggerDocument from '../swagger-output.json' assert { type: 'json' };
 const app = express();
 app.use(express.json());
 
-app.use('/api/v1', router);
+app.use('/api/blog', router);
 
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
