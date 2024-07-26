@@ -1,0 +1,17 @@
+{
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch  swagger.js"
+    
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.10.2",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "swagger-autogen": "^2.23.7"
+  }
+}
